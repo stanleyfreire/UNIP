@@ -14,9 +14,11 @@
         <Label 
                Text="{Binding Source={x:Reference slider},
                     Path=Value,
-                    StringFormat='The font size is: {0:N1}'}"/>
+                    StringFormat='The font size is: {0:N8}'}"/>
         <Slider x:Name="slider" Maximum="60" Minimum="16" />
         <Label x:Name="currentQuotes" FontSize="{Binding Source={x:Reference slider}, Path=Value}" />
     </StackLayout>
 
 </ContentPage>
+
+//teste pra ver se vai sozinho
